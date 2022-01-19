@@ -107,7 +107,7 @@ public class HelloApplication extends Application {
                         Stage stage1=new Stage();
                         try {
                           /*  f.start(tendangnhap.getText(),matkhau.getText(),pas_text.getText());*/
-                            f3.start(stage1);
+                            f3.start(stage);
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
