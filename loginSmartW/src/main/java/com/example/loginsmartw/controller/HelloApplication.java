@@ -104,7 +104,7 @@ public class HelloApplication extends Application {
 
                         form2 f=new form2();
                         form3 f3= new form3();
-                        Stage stage1=new Stage();
+
                         try {
                           /*  f.start(tendangnhap.getText(),matkhau.getText(),pas_text.getText());*/
                             f3.start(stage);

@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e4ba9e-4c88-43b5-98c4-253fbe2a10e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/loginSmartW.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/loginsmartw/controller/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/loginsmartw/controller/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/HelloApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/HelloApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/HelloApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
