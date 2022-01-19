@@ -1,0 +1,74 @@
+
+/**{
+        -fx-alignment:center;
+}*/
+CustomTextField {
+        -fx-background-radius:10px;
+        -fx-pref-height:226px;
+        -fx-pref-width:40px;
+        -fx-max-width:226px;
+        -fx-max-height:40px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-position: left;
+         -fx-padding:5px;
+}
+HBox{
+    -fx-alignment:center;
+}
+CustomPasswordField {
+        -fx-background-radius:10px;
+        -fx-pref-height:226px;
+        -fx-pref-width:40px;
+        -fx-max-width:226px;
+        -fx-max-height:40px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-position: left;
+         -fx-padding:5px;
+}
+Button {
+        -fx-background-radius:10px;
+        -fx-pref-height:226px;
+        -fx-pref-width:40px;
+        -fx-max-width:226px;
+        -fx-max-height:40px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-position: left;
+        -fx-background-color:blue;
+        -fx-text-fill:white;
+        -fx-font-weight:bold;
+
+}
+GridPane{
+-fx-alignment:center;
+}
+
+#footer{
+        -fx-text-fill:blue;
+}
+*{
+      /*-fx-background-color: green;*/
+.table-row-cell {
+    -fx-cell-size: 20px;
+}
+
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #4D5256, #93f9b944);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+
+}
+.table-view .column-header {
+    -fx-background-color: green;
+     -fx-text-background-color: white;
+}
+#all{
+    -fx-alignment:Center;
+}
+
+
