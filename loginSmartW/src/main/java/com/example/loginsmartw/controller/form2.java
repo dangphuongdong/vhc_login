@@ -22,13 +22,13 @@ import java.io.IOException;
 
 import static javafx.application.Application.launch;
 
-public class form2 {
+public class form2 extends HelloApplication {
 
     public void start(String username,String password,String pass_text) throws IOException {
       /*  FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
     */
-        Stage stage=new Stage();
+
         Label user=new Label(username);
         Label pass=new Label(password);
         Label pass_t=new Label(pass_text);
@@ -38,11 +38,8 @@ public class form2 {
         gridPane.add(pass_t,0,1);
         Scene scene=new Scene(gridPane,470,640);
         scene.getStylesheets().add(getClass().getResource("app.css").toExternalForm());
-        stage.setScene(scene);
-        stage.initStyle(StageStyle.UTILITY);
-        stage.setTitle("Hello!");
-
-        stage.show();
+        window.setScene(scene);
+        window.show();
     }
 
 }

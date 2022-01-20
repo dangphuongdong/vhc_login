@@ -7,6 +7,12 @@
     <list default="true" id="a2e4ba9e-4c88-43b5-98c4-253fbe2a10e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/loginsmartw/controller/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/loginsmartw/controller/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/loginsmartw/controller/form2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/loginsmartw/controller/form2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/loginsmartw/controller/form3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/loginsmartw/controller/form3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/HelloApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/HelloApplication$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/form2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/form2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/form3$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/form3$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/form3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/loginsmartw/controller/form3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Vhc_TableView" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

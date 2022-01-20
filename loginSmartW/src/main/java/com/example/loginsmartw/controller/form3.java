@@ -17,9 +17,9 @@ import javafx.util.Callback;
 
 import java.io.IOException;
 
-public class form3 extends Application {
-    @Override
-    public void start(Stage stage) throws IOException {
+public class form3 extends HelloApplication {
+
+    public void start() throws IOException {
        /* FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);*/
 
@@ -152,16 +152,15 @@ public class form3 extends Application {
             Stage newWindow = new Stage();
             newWindow.setTitle("Chi tiết");
             newWindow.setScene(secondScene);
-
             newWindow.show();
         });
         contextMenu.getItems().add(menuItem1);
         modelTableView.setContextMenu(contextMenu);
         Scene scene=new Scene(modelTableView,300,300);
         scene.getStylesheets().add(getClass().getResource("app.css").toExternalForm());
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
-        stage.show();
+
+        window.setScene(scene);
+        window.show();
     }
     private ObservableList<Model> getlist(){
         Model model1=new Model("A1","1","2","3","4","5","6","7","8","9","10");

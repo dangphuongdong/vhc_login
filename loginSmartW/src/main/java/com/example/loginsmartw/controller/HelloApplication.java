@@ -26,11 +26,13 @@ public class HelloApplication extends Application {
     private  static final  Image ten=new Image("F:\\loginSmartW\\Vector.png");
     private  static final  Image pass=new Image("F:\\loginSmartW\\Vector (1).png");
     private String mk;
+    static Stage   window;
     @Override
     public void start(Stage stage) throws IOException {
       /*  FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
     */
+        window=stage;
         Image hienthi=new Image("F:\\loginSmartW\\hienthi.png");
         Image an=new Image("F:\\loginSmartW\\an.png");
 
@@ -106,8 +108,9 @@ public class HelloApplication extends Application {
                         form3 f3= new form3();
 
                         try {
-                          /*  f.start(tendangnhap.getText(),matkhau.getText(),pas_text.getText());*/
-                            f3.start(stage);
+               /*           f.start(tendangnhap.getText(),matkhau.getText(),pas_text.getText());*/
+                            f3.start();
+
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
@@ -147,10 +150,10 @@ public class HelloApplication extends Application {
 
        Scene scene=new Scene(gridPane,470,640);
        scene.getStylesheets().add(getClass().getResource("app.css").toExternalForm());
-        stage.initStyle(StageStyle.UTILITY);
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
-        stage.show();
+
+        window.setTitle("Hello!");
+        window.setScene(scene);
+        window.show();
     }
 
     public static void main(String[] args) {
